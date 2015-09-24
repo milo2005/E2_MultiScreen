@@ -1,0 +1,30 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="unicauca.movil.fragments.fragments.MasterFragment"
+    android:stretchColumns="*"
+    >
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:entries="@array/colores"
+        />
+
+    <TableRow>
+        <Button android:layout_height="wrap_content"
+            android:text="@string/btn_add"
+            />
+        <Button android:layout_height="wrap_content"
+            android:text="@string/btn_edit"
+            />
+        <Button android:layout_height="wrap_content"
+            android:text="@string/btn_delete"
+            />
+
+    </TableRow>
+
+
+</TableLayout>

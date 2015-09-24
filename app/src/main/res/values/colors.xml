@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rojo">#ff0000</color>
+    <color name="azul">#0000ff</color>
+    <color name="amarillo">#ffff00</color>
+    <color name="naranja">#ff6600</color>
+    <color name="verde">#00ff00</color>
+    <color name="violeta">#ff00ff</color>
+
+    <integer-array name="color_hex">
+        <item>@color/azul</item>
+        <item>@color/rojo</item>
+        <item>@color/amarillo</item>
+        <item>@color/verde</item>
+        <item>@color/violeta</item>
+        <item>@color/naranja</item>
+    </integer-array>
+
+</resources>
